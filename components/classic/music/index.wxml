@@ -1,0 +1,9 @@
+<!--components/classic/music/index.wxml-->
+<view class='classic-container'>
+  <image class='classic-img-bak audio_post{{music_on?" music_on":""}}' src='{{img}}' />
+
+  <image wx:if="{{music_playing==true}}" class='classic-img' bindtap='{{pauseMusic}}' src='{{pauseSrc}}' />
+  <image wx:else class='classic-img' bindtap='{{playMusic}}' src='{{playSrc}}' />
+  <image class='tag' src='images/music@tag.png' />
+  <text class='content'>{{content}}</text>
+</view>

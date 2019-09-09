@@ -1,0 +1,51 @@
+/* components/classic/movie/index.wxss */
+
+.classic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.classic-img-bak {
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 250rpx;
+}
+.classic-img {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  margin-top:200rpx;
+  /* margin-bottom:120rpx; */
+}
+
+.tag {
+  width: 46rpx;
+  height: 142rpx;
+  position: relative;
+  bottom: 58rpx;
+  right: 310rpx;
+}
+
+.content {
+  display: block;
+  /* width:275px; */
+  /* margin:0 auto; */
+  max-width: 550rpx;
+  font-size: 36rpx;
+}
+
+/* 旋转的样式 */
+.music_on{
+  animation: audio-rotate 8s linear infinite;
+}
+
+/* 旋转动画 */
+@keyframes audio-rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+ 
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

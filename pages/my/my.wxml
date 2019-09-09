@@ -1,0 +1,18 @@
+<view class='all'>
+  <view class='top'>
+    <image class='top-img' src='/images/icon/background-1.png'></image>
+    <view class='top-img-m'>
+      
+      <button class='top-img-m-t' wx:if="{{!hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">ClickMe</button>
+      <view class='top-img-m-t' wx:else ><image class='top-img-m-t' src='{{icon}}'></image></view>
+      
+      <view class='top-img-m-b'></view>
+    </view>
+    <view class='top-img-b'>
+      <view class='top-img-b-l'></view>
+      <view class='top-img-b-r'></view>
+    </view>
+  </view>
+  <view class='medium'></view>
+  <view class='bottom'></view>
+</view>

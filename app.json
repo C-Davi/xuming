@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "pages/book/book",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/classic/classic",
+        "text": "一言",
+        "iconPath": "images/tab/book.png",
+        "selectedIconPath": "images/tab/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "一语",
+        "iconPath": "images/tab/classic.png",
+        "selectedIconPath": "images/tab/classic@highlight.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "与你",
+        "iconPath": "images/tab/my.png",
+        "selectedIconPath": "images/tab/my@highlight.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "粥可温",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#ffffff"
+  },
+  "sitemapLocation": "sitemap.json"
+}
